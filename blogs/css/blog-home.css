@@ -1,0 +1,31 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+	.blink{
+		width:100%;
+		height: 60px;
+	 	/*background-color: magenta;*/
+		padding: 15px;	
+		text-align: center;
+		line-height: 50px;
+	}
+	span{
+		font-size: 25px;
+		font-family: cursive;
+		color: #337ab7;
+		animation: blink 3s linear infinite;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+.container-outer { overflow: scroll; width: 100%; height: 170px; }
+.container-inner { width: 100%; }
